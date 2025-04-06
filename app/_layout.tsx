@@ -27,6 +27,16 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
+        name="search"
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <View style={{paddingTop:8}}>            
+              <TabBarIcon name="magnify" color={color} size={size} style={{paddingTop:8,}}/>
+            </View>
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="index"
         options={{
           tabBarIcon: ({ focused }) => (
@@ -44,9 +54,19 @@ export default function Layout() {
         }}
       />
       <Tabs.Screen
+        name="map"
+        options={{
+          tabBarIcon: ({ color, size}) => (
+            <View style={{paddingTop:8}}>            
+              <TabBarIcon name="map" color={color} size={size} style={{paddingTop:8,}}/>
+            </View>
+
+          ),
+        }}
+      />
+      <Tabs.Screen
         name="profile"
         options={{
-          title: 'Profile',
           tabBarIcon: ({ color, size}) => (
             <View style={{paddingTop:8}}>            
               <TabBarIcon name="account" color={color} size={size} style={{paddingTop:8,}}/>
@@ -55,6 +75,7 @@ export default function Layout() {
           ),
         }}
       />
+
     </Tabs>
   );
 }
