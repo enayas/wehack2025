@@ -30,7 +30,7 @@ const App = () => {
     };
 
     try {
-      const response = await axios.post('http://api.nessieisreal.com/customers?key=2db18076ee3960a662d069eeeba41729', formData);
+      const response = await axios.post('url', formData);
 
       setApiResponse(response.data.message || 'Submission successful!');
       console.log(response.data);
