@@ -17,22 +17,27 @@ React Native, TypeScript, Figma, Nessie API, Google Places API, Expo
 - Expo CLI or React Native CLI
 - Nessie API Key from Capital One
 
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-1. Install dependencies
+### Setup & Installation
+1. Get a free API key at (?)
+2. Clone the repo
+   ```bash
+   git clone https://github.com/yourusername/memorylane.git
+   cd memorylane
+   ```
+4. Install dependencies
 
    ```bash
    npm install
    ```
-
-2. Start the app
-
+5. Create a .env file in your root directory and add your API key
    ```bash
-    npx expo start
+   NESSIE_API_KEY=your_nessie_key
+   ```
+
+## Starting the App in Expo
+- Start the app
+   ```bash
+   npm start
    ```
 
 In the output, you'll find options to open the app in a
@@ -60,10 +65,3 @@ To learn more about developing your project with Expo, look at the following res
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
