@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Bean Café",
+    "categories": [
+      "coffee",
+      "aesthetic",
+      "relaxed"
+    ],
+    "lat": 37.7749,
+    "lon": -122.4194,
+    "description": "Come take a sip of our finest locally-grown coffee beans."
+  },
+  {
+    "name": "Anna's Bouqet",
+    "category": [
+      "flowers",
+      "relaxed",
+      "aesthetic"
+    ],
+    "lat": 37.7750,
+    "lon": -122.4183,
+    "description": "Fresh, personalized bouquets, near you. Hand-picked with love."
+  },
+  {
+    "name": "Arcadia",
+    "category": [
+      "entertainment",
+      "gaming",
+      "retro"
+    ],
+    "lat": 37.7751,
+    "lon": -122.4166,
+    "description": "Retro 90's arcade. We have every vintage game you can think of!"
+  },
+  {
+    "name": "Book Nook",
+    "category": [
+      "relaxed",
+      "retro",
+      "entertainment"
+    ],
+    "lat": 37.7752,
+    "lon": -122.4183,
+    "description": "Your small local bookstore. We have cats, too!"
+  }
+]
