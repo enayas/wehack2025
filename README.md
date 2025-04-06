@@ -10,7 +10,12 @@ MemoryLane is a location-based mobile app designed to connect users with local b
 
 ## Tech Stack
 React Native, TypeScript, Figma, Nessie API, Google Places API, Expo
-...
+
+## Getting Started
+### Prerequisites
+- Node.js & npm
+- Expo CLI or React Native CLI
+- Nessie API Key from Capital One
 
 # Welcome to your Expo app 👋
 
