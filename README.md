@@ -1,3 +1,17 @@
+# [<img src="https://github.com/user-attachments/assets/3651220e-bac6-447f-ba09-9b5570a3aeff" height="35"/>]([image.png](https://github.com/user-attachments/assets/3651220e-bac6-447f-ba09-9b5570a3aeff)) MemoryLane 
+MemoryLane is a location-based mobile app designed to connect users with local businesses that match their interests. With intelligent recommendations powered by Capital One's Nessie API, personalized profiles, and seamless search and geolocation functionality, users can always find something to do by discovering and supporting local small businesses.
+
+## Features
+- Chats (?)
+- Search page: allows users to search for businesses of their choice
+- Discover page: allows users to explore local businesses that best match their interests
+- Geolocation page: (?)
+- Profile page: allows users to edit and customize their profile by adding preferences
+
+## Tech Stack
+React Native, TypeScript, Figma, Nessie API, Google Places API, Expo
+...
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
